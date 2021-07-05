@@ -15,14 +15,14 @@ Feature: get call
             And request
                   """
                   {
-                        "name": "Kwanda",
+                        "name": "Lubanzi",
                         "job": "leader"
                   }
                   """
             When method POST
             Then status 201
             #Then response == "#object"
-            Then response.name= "Kwanda"
+            Then response.name= "Lubanzi"
 
 
 
