@@ -8,7 +8,7 @@ Feature: get call
             When  method GET
             Then status 200
       @ignore
-      Scenario: create a person
+      Scenario: create a persons
             Given path 'users'
             And request
                   """
